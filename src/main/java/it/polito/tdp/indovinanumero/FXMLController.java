@@ -13,7 +13,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 
 public class FXMLController {
-	
+	//dichiaro il modello
 	private Model model;
 	
 	
@@ -96,7 +96,7 @@ public class FXMLController {
         assert txtTentativi != null : "fx:id=\"txtTentativi\" was not injected: check your FXML file 'Scene.fxml'.";
         assert btnProva != null : "fx:id=\"btnProva\" was not injected: check your FXML file 'Scene.fxml'.";        
     }
-    
+    // setto il modello
     public void setModel(Model model) {
     	this.model = model;
     }
